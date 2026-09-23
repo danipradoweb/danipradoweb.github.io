@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ensayos — Daniel Prado Santalla</title>
+<meta name="description" content="Ensayos de Daniel Prado Santalla, publicados en Zenodo.">
+
+<!-- Icono de la pestaña -->
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicon.png" sizes="256x256" type="image/png">
+<link rel="apple-touch-icon" href="favicon.png">
+
+<!-- Tarjeta que se ve al compartir el enlace. Cuando publiques la web,
+     sustituye https://danipradoweb.github.io por su dirección real en las tres líneas. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ensayos — Daniel Prado Santalla">
+<meta property="og:description" content="Ensayos de Daniel Prado Santalla, publicados en Zenodo.">
+<meta property="og:image" content="https://danipradoweb.github.io/foto.jpg">
+<meta property="og:url" content="https://danipradoweb.github.io/ensayos.html">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="luz"></div>
+<div class="margenes" aria-hidden="true">
+  <span class="izq"></span>
+  <span class="rotulo">ENSAYOS</span>
+  <span class="der"></span>
+  <span class="punto a"></span>
+  <span class="punto b"></span>
+</div>
+<div class="marco">
+
+  <a class="volver" href="index.html">← Índice</a>
+
+  <h1 class="titulo-seccion">Ensayos</h1>
+  <p class="intro">Textos largos, publicados en Zenodo con DOI para que la dirección
+  no cambie nunca.</p>
+
+  <div class="buscador">
+    <span class="lupa">⌕</span>
+    <input id="filtro" data-plural="ensayos" data-singular="ensayo" type="search" placeholder="Buscar por título o por tema" autocomplete="off">
+    <p class="cuantos" id="cuantos"></p>
+  </div>
+
+  <div id="lista">
+
+    <a class="obra" href="https://doi.org/10.5281/zenodo.19446046" target="_blank" rel="noopener">
+      <span class="titulo">Falsacionismo Asimétrico</span>
+      <span class="glosa">Método para contrastar opiniones.</span>
+      <span class="anno">Zenodo, 2026</span>
+    </a>
+
+    <!-- PLANTILLA: copia este bloque y cambia los tres datos.
+    <a class="obra" href="DIRECCIÓN DEL DOI" target="_blank" rel="noopener">
+      <span class="titulo">TÍTULO</span>
+      <span class="glosa">DESCRIPCIÓN EN UNA LÍNEA</span>
+      <span class="anno">Zenodo, AÑO</span>
+    </a>
+    -->
+
+  </div>
+  <p class="vacio" id="vacio">No hay ningún ensayo que coincida.</p>
+
+
+  <footer class="pie">
+    <span>Daniel Prado Santalla</span>
+    <a href="mailto:danielpradosantalla@gmail.com">danielpradosantalla@gmail.com</a>
+  </footer>
+
+</div>
+<script src="pagina.js"></script>
+</body>
+</html>
